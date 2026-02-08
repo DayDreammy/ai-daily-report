@@ -8,7 +8,7 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 1.7;
             color: #333;
             background: #f5f5f5;
@@ -24,30 +24,35 @@
         }
         .date { 
             color: #999; 
-            font-size: 14px; 
+            font-size: 13px; 
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 1px solid #eee;
         }
         h1 { 
-            font-size: 24px; 
+            font-size: 26px; 
             color: #1a1a1a;
-            margin: 0 0 20px 0;
-            padding-bottom: 10px;
+            margin: 0 0 25px 0;
+            padding-bottom: 12px;
             border-bottom: 3px solid #4CAF50;
-            line-height: 1.4;
+            line-height: 1.3;
         }
         h2 { 
             font-size: 20px; 
             color: #333;
-            margin: 30px 0 12px 0;
+            margin: 30px 0 15px 0;
             padding-bottom: 8px;
-            border-bottom: 1px solid #e0e0e0;
+            border-bottom: 2px solid #e8e8e8;
         }
         h3 { 
             font-size: 17px; 
             color: #444;
-            margin: 22px 0 10px 0;
+            margin: 25px 0 12px 0;
+        }
+        h4 {
+            font-size: 15px;
+            color: #555;
+            margin: 20px 0 10px 0;
         }
         p { 
             margin-bottom: 12px; 
@@ -59,16 +64,21 @@
             padding-left: 25px;
         }
         li { 
-            margin: 8px 0;
+            margin: 10px 0;
             line-height: 1.6;
             color: #333;
-        }
-        li::marker {
-            color: #666;
         }
         strong { 
             color: #1a1a1a;
             font-weight: 600;
+        }
+        a {
+            color: #2196F3;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         table {
             width: 100%;
@@ -89,31 +99,32 @@
         tr:nth-child(even) {
             background: #fafafa;
         }
+        tr:hover {
+            background: #f0f7ff;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 25px 0;
+        }
         pre {
             background: #f4f4f4;
             padding: 15px;
             border-radius: 5px;
             overflow-x: auto;
-            font-size: 14px;
+            font-size: 13px;
             margin: 15px 0;
         }
         code {
             background: #f0f0f0;
-            padding: 2px 6px;
+            padding: 2px 5px;
             border-radius: 3px;
             font-family: "SF Mono", Monaco, "Cascadia Code", monospace;
-            font-size: 14px;
+            font-size: 13px;
         }
         pre code {
             background: transparent;
             padding: 0;
-        }
-        a {
-            color: #2196F3;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
         .footer {
             margin-top: 40px;
@@ -121,12 +132,12 @@
             border-top: 1px solid #e0e0e0;
             color: #999;
             text-align: center;
-            font-size: 14px;
+            font-size: 13px;
         }
         @media (max-width: 600px) {
             body { padding: 10px; }
             .container { padding: 20px; }
-            h1 { font-size: 20px; }
+            h1 { font-size: 22px; }
             h2 { font-size: 18px; }
         }
     </style>
@@ -146,59 +157,59 @@
 <li>🏗️ <strong>中国3套曙光scaleX万卡集群上线</strong>，支持万亿参数模型训练</li>
 <li>🎓 <strong>苏炜杰获统计学最高荣誉考普斯奖</strong>，北大数院黄金一代代表人物</li>
 </ul>
-<p>---</p>
+<hr>
 <h2>详细内容</h2>
 <h3>🔥 热门产品</h3>
 <p>#### 1. <strong>Claude Opus 4.6发布</strong> - Anthropic</p>
 <p>Anthropic正式发布Claude Opus 4.6，这是其最强大的模型版本。该模型在安全研究方面表现突出，成功发现了开源代码中的<strong>500个零日漏洞</strong>。同时，Anthropic还推出了Fast Mode模式，响应速度提升<strong>2.5倍</strong>（从73ms降至6.7ms），但价格也随之上涨6倍。</p>
 <ul>
-<li>[官方公告](https://www.anthropic.com/news/claude-opus-4-6)</li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-6" target="_blank">官方公告</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46902223)</th><th>326赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
 <p>#### 2. <strong>GPT-5.3-Codex发布</strong> - OpenAI</p>
 <p>OpenAI推出GPT-5.3-Codex，目前可通过Codex应用使用，API访问即将开放。该版本在代码生成和推理能力上都有显著提升，与Claude Opus 4.6形成了直接竞争。</p>
 <ul>
-<li>[官方介绍](https://openai.com/index/introducing-gpt-5-3-codex/)</li>
+<li><a href="https://openai.com/index/introducing-gpt-5-3-codex/" target="_blank">官方介绍</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46902638)</th><th>130赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
 <p>#### 3. <strong>Waymo世界模型Genie 3发布</strong> - Waymo × DeepMind</p>
 <p>Waymo与DeepMind合作推出基于Genie 3的全新世界模型，能够生成超逼真的3D仿真环境。该模型可模拟极端天气（如龙卷风）、野生动物 encounter（如路遇大象）等复杂场景，支持多传感器数据输出，工程师可通过自然语言提示调整仿真参数。</p>
 <ul>
-<li>[技术博客](https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation)</li>
+<li><a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation" target="_blank">技术博客</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46914785)</th><th>153赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
 <p>#### 4. <strong>面壁智能松果派开发板发布</strong> - 面壁智能</p>
 <p>面壁智能发布首款AI原生端侧开发板"松果派"，集成麦克风摄像头，搭载<strong>275TOPS算力</strong>，适配MiniCPM端侧大模型。支持自然语言直驱硬件，可离线运行保障隐私安全，计划2026年年中正式发布。</p>
 <ul>
-<li>[产品介绍](https://www.aibase.com/zh/news/25353)</li>
+<li><a href="https://www.aibase.com/zh/news/25353" target="_blank">产品介绍</a></li>
 </ul>
 <p>#### 5. <strong>千问APP登顶苹果应用商店</strong> - 阿里巴巴</p>
 <p>阿里千问App推出30亿免单活动，5小时内突破500万单，超越豆包元宝登顶苹果免费榜第一，形成"千豆元"三足鼎立新格局。接入淘宝闪购支付宝后，成为"能办事"的AI助手。</p>
 <ul>
-<li>[详情报道](https://www.qbitai.com/2026/02/377505.html)</li>
+<li><a href="https://www.qbitai.com/2026/02/377505.html" target="_blank">详情报道</a></li>
 </ul>
-<p>---</p>
+<hr>
 <h3>📄 重要论文与研究</h3>
 <p>#### 6. <strong>GenArena：视觉生成评估新框架</strong></p>
 <p>研究人员提出GenArena评估框架，采用成对比较范式替代传统绝对评分方法。开源模型在该评估下竟能超越顶级闭源模型，评估准确率提升<strong>超20%</strong>，与LMArena榜单相关性达0.86。</p>
 <ul>
-<li>[论文链接](https://arxiv.org/abs/2602.06013)</li>
+<li><a href="https://arxiv.org/abs/2602.06013" target="_blank">论文链接</a></li>
 </ul>
 <p>#### 7. <strong>OmniMoE：极致专家粒度突破</strong></p>
 <p>混合专家架构(MoE)再进化，引入向量级原子专家。笛卡尔积路由器将路由复杂度从O(N)降至O(√N)，17亿激活参数达<strong>50.9%零样本准确率</strong>，推理延迟从73ms降至6.7ms，提速<strong>10.9倍</strong>。</p>
 <ul>
-<li>[论文链接](https://arxiv.org/abs/2602.05711)</li>
+<li><a href="https://arxiv.org/abs/2602.05711" target="_blank">论文链接</a></li>
 </ul>
-<p>---</p>
+<hr>
 <h3>💡 深度观点</h3>
 <p>#### 8. <strong>Mitchell Hashimoto的AI应用之旅</strong></p>
 <p>HashiCorp创始人Mitchell Hashimoto分享了使用AI编码代理的经验：</p>
@@ -208,31 +219,31 @@
 <li><strong>外包"灌篮"</strong>：将代理能处理的任务外包，自己专注更有趣的工作</li>
 </ul>
 <ul>
-<li>[原文](https://mitchellh.com/writing/my-ai-adoption-journey)</li>
+<li><a href="https://mitchellh.com/writing/my-ai-adoption-journey" target="_blank">原文</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46903558)</th><th>121赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
 <p>#### 9. <strong>软件工厂与代理时刻</strong> - StrongDM</p>
 <p>StrongDM团队分享了他们如何在"不看代码"的情况下构建严肃软件的经验。他们实现了Dan Shapiro所说的"黑灯工厂"级别的AI应用——编码代理产生的代码无需人工审核即可部署。</p>
 <ul>
-<li>[案例分享](https://factory.strongdm.ai/)</li>
+<li><a href="https://factory.strongdm.ai/" target="_blank">案例分享</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46924426)</th><th>103赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
 <p>#### 10. <strong>AI兴起导致其他领域人才短缺</strong> - 华盛顿邮报</p>
 <p>据华盛顿邮报报道，AI热潮正在造成其他领域的人才和物资短缺。科技公司的大量投资正在推高数据中心、电力设备和相关专业人才的成本。</p>
 <ul>
-<li>[原文](https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/)</li>
+<li><a href="https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/" target="_blank">原文</a></li>
+</ul>
 <table>
 <thead><tr><th>- [HN讨论](https://news.ycombinator.com/item?id=46922969)</th><th>108赞</th></tr></thead>
 <tbody>
-</ul>
 </tbody></table>
-<p>---</p>
+<hr>
 <h3>🔗 其他资讯</h3>
 <ul>
 <li><strong>Anthropic与OpenAI广告战</strong>：Anthropic超级碗广告讽刺ChatGPT要加广告，承诺Claude永久无广告；奥特曼发长文反击称Anthropic"双标"。OpenAI预计今年烧掉<strong>90亿美元</strong>。</li>
@@ -246,7 +257,7 @@
 <ul>
 <li><strong>火山引擎AgentKit</strong>：瞄准OpenClaw安全漏洞问题，通过AI逆向工程实现存量系统智能化转换，基于MCP工具精准召回降低<strong>70%Token消耗</strong>。</li>
 </ul>
-<p>---</p>
+<hr>
 <h2>来源汇总</h2>
 <table>
 <thead><tr><th>来源</th><th>更新数</th><th>主要内容</th></tr></thead>
@@ -258,13 +269,13 @@
 <tr><td>Simon Willison's Blog</td><td>8</td><td>编程代理、AI工具评测</td></tr>
 <tr><td>Sam Altman Blog</td><td>1</td><td>Sora更新</td></tr>
 </tbody></table>
-<p>---</p>
+<hr>
 <table>
 <thead><tr><th>*由AI助手自动生成</th><th>数据截止: 2026-02-08 04:35 UTC*</th></tr></thead>
 <tbody>
 </tbody></table>
         <div class="footer">
-            <p>Generated by OpenClaw AI Daily Skill | <a href="https://github.com/DayDreammy/ai-daily-report">GitHub</a></p>
+            <p>Generated by OpenClaw AI Daily Skill | <a href="https://github.com/DayDreammy/ai-daily-report">GitHub</a> | <a href="../index.html">返回首页</a></p>
         </div>
     </div>
 </body>
